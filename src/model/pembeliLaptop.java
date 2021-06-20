@@ -17,4 +17,30 @@ public class pembeliLaptop extends Laptop {
         String ji = "INSERT INTO Laptop VALUES ('"+jumlahLaptopYangDibeli+"')";
         System.out.println(ji);
     }
+
+    //Getter And Setter
+
+    public String getNamaPembeliLaptop() {
+        return namaPembeliLaptop;
+    }
+
+    public void setNamaPembeliLaptop(String namaPembeliLaptop) {
+        this.namaPembeliLaptop = namaPembeliLaptop;
+    }
+
+    public String getNamaPenjualLaptop() {
+        return namaPenjualLaptop;
+    }
+
+    public void setNamaPenjualLaptop(String namaPenjualLaptop) {
+        this.namaPenjualLaptop = namaPenjualLaptop;
+    }
+
+    public String getJumlahLaptopYangDibeli() {
+        return jumlahLaptopYangDibeli;
+    }
+
+    public void setJumlahLaptopYangDibeli(String jumlahLaptopYangDibeli) {
+        this.jumlahLaptopYangDibeli = jumlahLaptopYangDibeli;
+    }
 }
