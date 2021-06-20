@@ -72,4 +72,69 @@ public class Laptop {
         this.jenisLaptop = jenisLaptop;
     }
 
+    //Getter And Setter
+
+    public String getNamaLaptop() {
+        return namaLaptop;
+    }
+
+    public void setNamaLaptop(String namaLaptop) {
+        this.namaLaptop = namaLaptop;
+    }
+
+    public String getJenisLaptop() {
+        return jenisLaptop;
+    }
+
+    public void setJenisLaptop(String jenisLaptop) {
+        this.jenisLaptop = jenisLaptop;
+    }
+
+    public String getModelLaptop() {
+        return modelLaptop;
+    }
+
+    public void setModelLaptop(String modelLaptop) {
+        this.modelLaptop = modelLaptop;
+    }
+
+    public String getBuatanLaptop() {
+        return buatanLaptop;
+    }
+
+    public void setBuatanLaptop(String buatanLaptop) {
+        this.buatanLaptop = buatanLaptop;
+    }
+
+    public String getWarnaLaptop() {
+        return warnaLaptop;
+    }
+
+    public void setWarnaLaptop(String warnaLaptop) {
+        this.warnaLaptop = warnaLaptop;
+    }
+
+    public String getJenisInpedia() {
+        return jenisInpedia;
+    }
+
+    public void setJenisInpedia(String jenisInpedia) {
+        this.jenisInpedia = jenisInpedia;
+    }
+
+    public String getDeskripsiLaptop() {
+        return deskripsiLaptop;
+    }
+
+    public void setDeskripsiLaptop(String deskripsiLaptop) {
+        this.deskripsiLaptop = deskripsiLaptop;
+    }
+
+    public String getCompactdisk() {
+        return Compactdisk;
+    }
+
+    public void setCompactdisk(String compactdisk) {
+        Compactdisk = compactdisk;
+    }
 }

@@ -47,5 +47,6 @@ public class AksiLaptop {
         lp5.tampilkanInfoLaptop();
         Laptop lp6 = new Laptop("HP 14Z","Merah","EliteBoox 8440p");
         lp6.tampilkanAtribut();
+
     }
 }
