@@ -30,5 +30,22 @@ public class AksiLaptop {
         pembeli.tampilkanAtribut();
         pembeli.create();
         pembeli.create("Lenovo Yoga");
+
+
+        //Constructor dengan method (Object)
+        Laptop lp1 = new Laptop();
+        lp1.tampilkanAtribut();
+        Laptop lp2 = new Laptop();
+        lp2.tampilkanInfoLaptop();
+
+        Laptop lp3 = new Laptop("VivoBook S Series","Hitam");
+        lp3.tampilkanInfoLaptop();
+        Laptop lp4 = new Laptop("Asus Republic Of Gamers","Putih");
+        lp4.tampilkanAtribut();
+
+        Laptop lp5 = new Laptop("Acer","Anti Air","Aspire E5 475G");
+        lp5.tampilkanInfoLaptop();
+        Laptop lp6 = new Laptop("HP 14Z","Merah","EliteBoox 8440p");
+        lp6.tampilkanAtribut();
     }
 }
