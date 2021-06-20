@@ -53,4 +53,23 @@ public class Laptop {
 
     }
 
+    //Constructor
+
+    public Laptop(){
+        System.out.println("=================================");
+        namaLaptop = "Please Isi Nama Laptop";
+        jenisLaptop = "Please Isi Jenis Laptop";
+        warnaLaptop = "Please Isi Warna Laptop";
+        modelLaptop = "Please Isi Model Laptop";
+    }
+    public Laptop(String jenisLaptop, String warnaLaptop){
+        this.jenisLaptop = jenisLaptop;
+        this.warnaLaptop = warnaLaptop;
+    }
+    public Laptop(String namaLaptop, String modelLaptop, String jenisLaptop){
+        this.namaLaptop = namaLaptop;
+        this.modelLaptop = modelLaptop;
+        this.jenisLaptop = jenisLaptop;
+    }
+
 }
