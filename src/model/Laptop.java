@@ -1,7 +1,7 @@
 package model;
 
 import jdk.swing.interop.SwingInterOpUtils;
-
+//SuperClass/Parent-Class
 public class Laptop {
 
     // 8 atribut class laptop
