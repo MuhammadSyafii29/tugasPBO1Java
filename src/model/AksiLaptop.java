@@ -48,5 +48,10 @@ public class AksiLaptop {
         Laptop lp6 = new Laptop("HP 14Z","Merah","EliteBoox 8440p");
         lp6.tampilkanAtribut();
 
+
+        //Overriding
+        pembeliLaptop riding = new pembeliLaptop();
+        riding.create();
+        riding.create("Asus Classsic Series");
     }
 }

@@ -43,4 +43,16 @@ public class pembeliLaptop extends Laptop {
     public void setJumlahLaptopYangDibeli(String jumlahLaptopYangDibeli) {
         this.jumlahLaptopYangDibeli = jumlahLaptopYangDibeli;
     }
+
+    //Overriding
+
+    @Override
+    public boolean create() {
+        return super.create();
+    }
+
+    @Override
+    public boolean create(String jenisLaptop) {
+        return super.create(jenisLaptop);
+    }
 }
