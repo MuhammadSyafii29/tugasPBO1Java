@@ -13,8 +13,8 @@ public class pembeliLaptop extends Laptop {
         System.out.println("Nama Penjual Laptop : "+namaPenjualLaptop);
         System.out.println("jumlah Laptop Yang Dibeli : "+jumlahLaptopYangDibeli);
     }
-    public void Penjual(){
-        String pj = "INSERT INTO Laptop VALUES ('"+namaPenjualLaptop+"')";
-        System.out.println(pj);
+    public void Jumlahinfo(){
+        String ji = "INSERT INTO Laptop VALUES ('"+jumlahLaptopYangDibeli+"')";
+        System.out.println(ji);
     }
 }
